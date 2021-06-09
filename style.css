@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    background-image: url(bg.jpg);
+}
+
+#ClockBody{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    border: 23px solid black;
+    border-radius: 50%;
+    background-color: white;
+    filter: drop-shadow(0 0 0.75rem rgb(83, 81, 82));
+}
+
+#roundCenter{ 
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    align-self: center;
+   
+}
+
+#hoursHand{
+    position: absolute;
+    top: 20%;
+    height: 150px;
+    width: 15px;
+    background-color: rgb(7, 4, 4);
+    border-radius: 45% ;
+    transform-origin: bottom ;
+}
+
+
+#minutesHand{
+    position: absolute;
+    top: 5%;
+    height: 220px;
+    width: 20px;
+    background-color: rgb(7, 4, 4);
+    border-radius: 45% ;
+    transform-origin: bottom ;
+}
+#secondsHand{
+    position: absolute;
+    top: 5%;
+    height: 220px;
+    width: 2px;
+    background-color: rgb(163, 11, 11);
+    border-radius: 45% ;
+    transform-origin: bottom ;
+}
+
+#timeTwelve{
+    color: rgb(163, 11, 11);
+    position: absolute;
+    top: 2%;
+}
+#timeThree{
+    color: rgb(163, 11, 11);
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+#timeSix{
+    color: rgb(163, 11, 11);
+    position: absolute;
+    bottom: 2%;
+}
+#timeNine{
+    color: rgb(163, 11, 11);
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
